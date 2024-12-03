@@ -1,0 +1,109 @@
+{
+  "dummy": {
+    "displayName": "John Doe",
+    "fatherName": "Michael Doe",
+    "fullName": "John Michael Doe",
+    "legalName": "Johnathan Doe",
+    "name": "John",
+    "names": "John, Michael",
+    "fatherLastName": "Doe",
+    "lastName": "Doe",
+    "marriedLastName": "Smith",
+    "motherLastName": "Johnson",
+    "fullname": "John Michael Doe",
+    "citizenId": "C123456789",
+    "customerId": "CUST-001",
+    "cic": "CIC-001",
+    "CIC": "CIC-001",
+    "consumerId": "CONSUMER-001",
+    "ruc": "RUC-123456789",
+    "idc": "IDC-001",
+    "personId": "PERSON-001",
+    "direction": {
+      "value": "123 Main St",
+      "streetNumber": "123",
+      "blockCode": "B1",
+      "lotNumber": "L1",
+      "urbanizationName": "Green Valley",
+      "summary": "Near the park",
+      "reference": "Next to the supermarket"
+    },
+    "phone": 981287812,
+    "phoneNumber": 981287812,
+    "officePhone": 981287812,
+    "email": "john.doe@example.com",
+    "emailAddress": "john.doe@example.com",
+    "photo": "https://example.com/photo.jpg",
+    "voice": "voice message",
+    "signature": "John Doe",
+    "digital": "digital signature",
+    "maritalStatus": {
+      "code": "M",
+      "description": "Married"
+    },
+    "birthDate": "01/01/1990",
+    "nationality": {
+      "code": "AM",
+      "description": "American"
+    },
+    "gender": "Male",
+    "profession": {
+      "code": "SE",
+      "description": "Software Engineer"
+    },
+    "age": "34",
+    "loanID": "LOAN-001",
+    "formattedLoanNumber": "LN-12345",
+    "accountNumber": "ACC-001",
+    "employeeId": "EMP-001",
+    "employeeID": "EMP-001",
+    "accountId": "ACC-001",
+    "accountID": "ACC-001",
+    "formattedAccountNumber": "AC-12345",
+    "sunatTributeFormID": "TRIBUTE-001",
+    "insuranceId": "INS-001",
+    "insuranceID": "INS-001",
+    "insuranceReferenceID": "INSREF-001",
+    "insuranceReferenceId": "INSREF-001",
+    "insured": {
+      "contractor": {
+        "value": "Jane Doe"
+      }
+    },
+    "referenceId": "REF-001",
+    "referenceID": "REF-001",
+    "mortgageLoanOrderID": "MLO-001",
+    "mortgageLoanOrderId": "MLO-001",
+    "requesterId": "REQ-001",
+    "requester": {
+      "contactAddress": {
+        "value": "123 Main St"
+      }
+    },
+    "RealState": {
+      "buildingproject": {
+        "name": "Building A"
+      }
+    },
+    "creditofficer": {
+      "fullname": "Officer Full Name",
+      "value": "Officer Value"
+    },
+    "indebtednessCapacityId": "IDC-001",
+    "formattedIndebtednessCapacityNumber": "IDC-123",
+    "cards": {
+      "cardId": "CARD-001"
+    },
+    "creditCard": {
+      "creditCardId": "CREDITCARD-001"
+    },
+    "customerCard": {
+      "customerCardId": "CUSTOMERCARD-001"
+    },
+    "expirationDate": "12/31/2025",
+    "formattedProductNumber": "PROD-001",
+    "printedCardSecurityCode": "123",
+    "isMarried": true,
+    "isRich": true
+  }
+}

@@ -1,7 +1,7 @@
 import * as winston from "winston";
-import { createWinstonOptions, MatrixWinstonLoggerOpts } from "../../src";
-import { Environment } from "../../src/constants/environment";
-import { LogLevelName } from "../../src/constants/log-levels";
+import { createWinstonOptions, MatrixWinstonLoggerOpts } from "../src";
+import { Environment } from "../src/constants/environment";
+import { LogLevelName } from "../src/constants/log-levels";
 
 describe("createWinstonOptions", () => {
   let logger: winston.Logger;
