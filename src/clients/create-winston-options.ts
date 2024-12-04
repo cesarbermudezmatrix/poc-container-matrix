@@ -8,7 +8,7 @@ import { determinateLogLevel, LogLevelName } from "../constants/log-levels";
 import { FilterInstancesTransport } from "./transports/filter-instances.transport";
 import { MaskController } from "./controller/mask-controller";
 
-const { combine, timestamp, printf, splat, errors, prettyPrint } = format;
+const { combine, timestamp, printf, splat, errors } = format;
 const controller = new MaskController();
 
 /**
@@ -77,11 +77,10 @@ export const createWinstonOptions = ({
       errors({ stack: true }),
       errorField(),
       traceId(),
-      prettyPrint(),
-      printf((msg) => {
+      printf((info) => {
         return JSON.stringify({
-          ...msg,
-          ...controller.init(msg),
+          ...info,
+          ...controller.init(info),
         });
       }),
     ),
